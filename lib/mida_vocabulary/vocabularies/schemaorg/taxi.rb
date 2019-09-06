@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A taxi.
     class Taxi < Mida::Vocabulary

@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :BusStation, 'mida_vocabulary/vocabularies/schemaorg/busstation'
-    autoload :BusStop, 'mida_vocabulary/vocabularies/schemaorg/busstop'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :BusStation, 'mida_vocabulary/vocabularies/schemaorg/busstation'
+    # autoload :BusStop, 'mida_vocabulary/vocabularies/schemaorg/busstop'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # A trip on a commercial bus line.
     class BusTrip < Mida::Vocabulary

@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :BookFormatType, 'mida_vocabulary/vocabularies/schemaorg/bookformattype'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :BookFormatType, 'mida_vocabulary/vocabularies/schemaorg/bookformattype'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # A book.
     class Book < Mida::Vocabulary

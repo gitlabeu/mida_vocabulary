@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
 
     # A reservation to dine at a food-related business.
     class FoodEstablishmentReservation < Mida::Vocabulary

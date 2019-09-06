@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
 
     # The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another.
     class TransferAction < Mida::Vocabulary

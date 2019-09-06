@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CommunicateAction, 'mida_vocabulary/vocabularies/schemaorg/communicateaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :CommunicateAction, 'mida_vocabulary/vocabularies/schemaorg/communicateaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
 
     # The act of notifying someone of information pertinent to them, with no expectation of a response.
     class InformAction < Mida::Vocabulary

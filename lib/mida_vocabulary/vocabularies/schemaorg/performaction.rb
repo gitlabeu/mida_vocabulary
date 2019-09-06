@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :PlayAction, 'mida_vocabulary/vocabularies/schemaorg/playaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :EntertainmentBusiness, 'mida_vocabulary/vocabularies/schemaorg/entertainmentbusiness'
+    # autoload :PlayAction, 'mida_vocabulary/vocabularies/schemaorg/playaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :EntertainmentBusiness, 'mida_vocabulary/vocabularies/schemaorg/entertainmentbusiness'
 
     # The act of participating in performance arts.
     class PerformAction < Mida::Vocabulary

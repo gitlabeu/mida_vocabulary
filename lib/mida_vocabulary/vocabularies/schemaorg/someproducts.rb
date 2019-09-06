@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
 
     # A placeholder for multiple similar products of the same kind.
     class SomeProducts < Mida::Vocabulary

@@ -3,7 +3,7 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # Natural languages such as Spanish, Tamil, Hindi, English, etc. and programming languages such as Scheme and Lisp.
     class Language < Mida::Vocabulary

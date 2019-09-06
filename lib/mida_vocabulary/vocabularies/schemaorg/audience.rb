@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
 
     # Intended audience for an item, i.e. the group for whom the item was created.
     class Audience < Mida::Vocabulary

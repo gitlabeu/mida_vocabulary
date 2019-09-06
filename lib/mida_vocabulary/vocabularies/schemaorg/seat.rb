@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :QualitativeValue, 'mida_vocabulary/vocabularies/schemaorg/qualitativevalue'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :QualitativeValue, 'mida_vocabulary/vocabularies/schemaorg/qualitativevalue'
 
     # Used to describe a seat, such as a reserved seat in an event reservation.
     class Seat < Mida::Vocabulary

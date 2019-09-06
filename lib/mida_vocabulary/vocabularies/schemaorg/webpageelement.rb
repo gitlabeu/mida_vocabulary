@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A web page element, like a table or an image
     class WebPageElement < Mida::Vocabulary

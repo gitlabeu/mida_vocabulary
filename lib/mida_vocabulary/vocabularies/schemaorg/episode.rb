@@ -3,15 +3,15 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :MusicGroup, 'mida_vocabulary/vocabularies/schemaorg/musicgroup'
-    autoload :Season, 'mida_vocabulary/vocabularies/schemaorg/season'
-    autoload :Series, 'mida_vocabulary/vocabularies/schemaorg/series'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
-    autoload :VideoObject, 'mida_vocabulary/vocabularies/schemaorg/videoobject'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :MusicGroup, 'mida_vocabulary/vocabularies/schemaorg/musicgroup'
+    # autoload :Season, 'mida_vocabulary/vocabularies/schemaorg/season'
+    # autoload :Series, 'mida_vocabulary/vocabularies/schemaorg/series'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
+    # autoload :VideoObject, 'mida_vocabulary/vocabularies/schemaorg/videoobject'
 
     # A TV or radio episode which can be part of a series or season.
     class Episode < Mida::Vocabulary

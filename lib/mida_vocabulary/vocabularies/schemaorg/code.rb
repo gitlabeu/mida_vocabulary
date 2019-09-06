@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :SoftwareApplication, 'mida_vocabulary/vocabularies/schemaorg/softwareapplication'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :SoftwareApplication, 'mida_vocabulary/vocabularies/schemaorg/softwareapplication'
 
     # Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.
     class Code < Mida::Vocabulary

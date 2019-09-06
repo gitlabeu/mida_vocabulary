@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :TransferAction, 'mida_vocabulary/vocabularies/schemaorg/transferaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :TransferAction, 'mida_vocabulary/vocabularies/schemaorg/transferaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # The act of returning to the origin that which was previously received (concrete objects) or taken (ownership).
     class ReturnAction < Mida::Vocabulary

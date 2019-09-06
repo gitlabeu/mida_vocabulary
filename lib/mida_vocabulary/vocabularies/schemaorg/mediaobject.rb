@@ -3,16 +3,16 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :NewsArticle, 'mida_vocabulary/vocabularies/schemaorg/newsarticle'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
-    autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :NewsArticle, 'mida_vocabulary/vocabularies/schemaorg/newsarticle'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
 
     # An image, video, or audio object embedded in a web page. Note that a creative work may have many media objects associated with it on the same web page. For example, a page about a single song (MusicRecording) may have a music video (VideoObject), and a high and low bandwidth audio stream (2 AudioObject's).
     class MediaObject < Mida::Vocabulary

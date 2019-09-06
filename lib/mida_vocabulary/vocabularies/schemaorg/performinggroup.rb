@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A performance group, such as a band, an orchestra, or a circus.
     class PerformingGroup < Mida::Vocabulary

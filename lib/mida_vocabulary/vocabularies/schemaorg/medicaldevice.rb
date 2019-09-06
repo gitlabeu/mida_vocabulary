@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalContraindication, 'mida_vocabulary/vocabularies/schemaorg/medicalcontraindication'
-    autoload :MedicalIndication, 'mida_vocabulary/vocabularies/schemaorg/medicalindication'
-    autoload :MedicalDevicePurpose, 'mida_vocabulary/vocabularies/schemaorg/medicaldevicepurpose'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalContraindication, 'mida_vocabulary/vocabularies/schemaorg/medicalcontraindication'
+    # autoload :MedicalIndication, 'mida_vocabulary/vocabularies/schemaorg/medicalindication'
+    # autoload :MedicalDevicePurpose, 'mida_vocabulary/vocabularies/schemaorg/medicaldevicepurpose'
 
     # Any object used in a medical capacity, such as to diagnose or treat a patient.
     class MedicalDevice < Mida::Vocabulary

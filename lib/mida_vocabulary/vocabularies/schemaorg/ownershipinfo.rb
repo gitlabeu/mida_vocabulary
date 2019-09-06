@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
 
     # A structured value providing information about when a certain organization or person owned a certain product.
     class OwnershipInfo < Mida::Vocabulary

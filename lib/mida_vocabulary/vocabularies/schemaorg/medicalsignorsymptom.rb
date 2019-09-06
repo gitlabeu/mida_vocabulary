@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalCause, 'mida_vocabulary/vocabularies/schemaorg/medicalcause'
-    autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalCause, 'mida_vocabulary/vocabularies/schemaorg/medicalcause'
+    # autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
 
     # Any indication of the existence of a medical condition or disease.
     class MedicalSignOrSymptom < Mida::Vocabulary

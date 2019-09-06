@@ -3,18 +3,18 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
-    autoload :AnatomicalSystem, 'mida_vocabulary/vocabularies/schemaorg/anatomicalsystem'
-    autoload :SuperficialAnatomy, 'mida_vocabulary/vocabularies/schemaorg/superficialanatomy'
-    autoload :MedicalCause, 'mida_vocabulary/vocabularies/schemaorg/medicalcause'
-    autoload :DDxElement, 'mida_vocabulary/vocabularies/schemaorg/ddxelement'
-    autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
-    autoload :MedicalRiskFactor, 'mida_vocabulary/vocabularies/schemaorg/medicalriskfactor'
-    autoload :MedicalSignOrSymptom, 'mida_vocabulary/vocabularies/schemaorg/medicalsignorsymptom'
-    autoload :MedicalConditionStage, 'mida_vocabulary/vocabularies/schemaorg/medicalconditionstage'
-    autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
+    # autoload :AnatomicalSystem, 'mida_vocabulary/vocabularies/schemaorg/anatomicalsystem'
+    # autoload :SuperficialAnatomy, 'mida_vocabulary/vocabularies/schemaorg/superficialanatomy'
+    # autoload :MedicalCause, 'mida_vocabulary/vocabularies/schemaorg/medicalcause'
+    # autoload :DDxElement, 'mida_vocabulary/vocabularies/schemaorg/ddxelement'
+    # autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
+    # autoload :MedicalRiskFactor, 'mida_vocabulary/vocabularies/schemaorg/medicalriskfactor'
+    # autoload :MedicalSignOrSymptom, 'mida_vocabulary/vocabularies/schemaorg/medicalsignorsymptom'
+    # autoload :MedicalConditionStage, 'mida_vocabulary/vocabularies/schemaorg/medicalconditionstage'
+    # autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
 
     # Any condition of the human body that affects the normal functioning of a person, whether physically or mentally. Includes diseases, injuries, disabilities, disorders, syndromes, etc.
     class MedicalCondition < Mida::Vocabulary

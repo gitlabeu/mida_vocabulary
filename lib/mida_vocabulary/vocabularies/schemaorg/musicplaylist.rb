@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MusicRecording, 'mida_vocabulary/vocabularies/schemaorg/musicrecording'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MusicRecording, 'mida_vocabulary/vocabularies/schemaorg/musicrecording'
 
     # A collection of music tracks in playlist form.
     class MusicPlaylist < Mida::Vocabulary

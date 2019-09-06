@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
 
     # A listing that describes a job opening in a certain organization.
     class JobPosting < Mida::Vocabulary

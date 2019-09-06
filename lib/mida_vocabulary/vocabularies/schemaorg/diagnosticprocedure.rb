@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalProcedure, 'mida_vocabulary/vocabularies/schemaorg/medicalprocedure'
+    # autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalProcedure, 'mida_vocabulary/vocabularies/schemaorg/medicalprocedure'
 
     # A medical procedure intended primarily for diagnostic, as opposed to therapeutic, purposes.
     class DiagnosticProcedure < Mida::Vocabulary

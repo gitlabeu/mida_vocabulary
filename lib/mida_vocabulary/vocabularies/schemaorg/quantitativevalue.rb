@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Enumeration, 'mida_vocabulary/vocabularies/schemaorg/enumeration'
-    autoload :StructuredValue, 'mida_vocabulary/vocabularies/schemaorg/structuredvalue'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Enumeration, 'mida_vocabulary/vocabularies/schemaorg/enumeration'
+    # autoload :StructuredValue, 'mida_vocabulary/vocabularies/schemaorg/structuredvalue'
 
     # A point value or interval for product characteristics and other purposes.
     class QuantitativeValue < Mida::Vocabulary

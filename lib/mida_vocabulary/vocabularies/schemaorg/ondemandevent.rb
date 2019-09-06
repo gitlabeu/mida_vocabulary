@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A publication event e.g. catch-up TV or radio podcast, during which a program is available on-demand.
     class OnDemandEvent < Mida::Vocabulary

@@ -3,18 +3,18 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :DrugStrength, 'mida_vocabulary/vocabularies/schemaorg/drugstrength'
-    autoload :DrugCost, 'mida_vocabulary/vocabularies/schemaorg/drugcost'
-    autoload :DoseSchedule, 'mida_vocabulary/vocabularies/schemaorg/doseschedule'
-    autoload :DrugClass, 'mida_vocabulary/vocabularies/schemaorg/drugclass'
-    autoload :Drug, 'mida_vocabulary/vocabularies/schemaorg/drug'
-    autoload :DrugLegalStatus, 'mida_vocabulary/vocabularies/schemaorg/druglegalstatus'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :DrugPregnancyCategory, 'mida_vocabulary/vocabularies/schemaorg/drugpregnancycategory'
-    autoload :DrugPrescriptionStatus, 'mida_vocabulary/vocabularies/schemaorg/drugprescriptionstatus'
+    # autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :DrugStrength, 'mida_vocabulary/vocabularies/schemaorg/drugstrength'
+    # autoload :DrugCost, 'mida_vocabulary/vocabularies/schemaorg/drugcost'
+    # autoload :DoseSchedule, 'mida_vocabulary/vocabularies/schemaorg/doseschedule'
+    # autoload :DrugClass, 'mida_vocabulary/vocabularies/schemaorg/drugclass'
+    # autoload :Drug, 'mida_vocabulary/vocabularies/schemaorg/drug'
+    # autoload :DrugLegalStatus, 'mida_vocabulary/vocabularies/schemaorg/druglegalstatus'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :DrugPregnancyCategory, 'mida_vocabulary/vocabularies/schemaorg/drugpregnancycategory'
+    # autoload :DrugPrescriptionStatus, 'mida_vocabulary/vocabularies/schemaorg/drugprescriptionstatus'
 
     # A chemical or biologic substance, used as a medical therapy, that has a physiological effect on an organism.
     class Drug < Mida::Vocabulary

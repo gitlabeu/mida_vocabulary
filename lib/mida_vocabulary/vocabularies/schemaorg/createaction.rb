@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # The act of deliberately creating/producing/generating/building a result out of the agent.
     class CreateAction < Mida::Vocabulary

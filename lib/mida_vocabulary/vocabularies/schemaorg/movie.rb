@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :MusicGroup, 'mida_vocabulary/vocabularies/schemaorg/musicgroup'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :VideoObject, 'mida_vocabulary/vocabularies/schemaorg/videoobject'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :MusicGroup, 'mida_vocabulary/vocabularies/schemaorg/musicgroup'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :VideoObject, 'mida_vocabulary/vocabularies/schemaorg/videoobject'
 
     # A movie.
     class Movie < Mida::Vocabulary

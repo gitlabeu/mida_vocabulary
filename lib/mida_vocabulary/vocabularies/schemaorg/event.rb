@@ -3,16 +3,16 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :EventStatusType, 'mida_vocabulary/vocabularies/schemaorg/eventstatustype'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
-    autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :EventStatusType, 'mida_vocabulary/vocabularies/schemaorg/eventstatustype'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
+    # autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
 
     # An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the 'offers' property. Repeated events may be structured as separate Event objects.
     class Event < Mida::Vocabulary

@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
 
     # A software application.
     class SoftwareApplication < Mida::Vocabulary

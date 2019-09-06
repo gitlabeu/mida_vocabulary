@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Clip, 'mida_vocabulary/vocabularies/schemaorg/clip'
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Season, 'mida_vocabulary/vocabularies/schemaorg/season'
-    autoload :Series, 'mida_vocabulary/vocabularies/schemaorg/series'
+    # autoload :Clip, 'mida_vocabulary/vocabularies/schemaorg/clip'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Season, 'mida_vocabulary/vocabularies/schemaorg/season'
+    # autoload :Series, 'mida_vocabulary/vocabularies/schemaorg/series'
 
     # A short TV program or a segment/part of a TV program.
     class TVClip < Mida::Vocabulary

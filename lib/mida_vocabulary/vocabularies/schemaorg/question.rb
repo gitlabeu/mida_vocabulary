@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Answer, 'mida_vocabulary/vocabularies/schemaorg/answer'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Answer, 'mida_vocabulary/vocabularies/schemaorg/answer'
 
     # A specific question - e.g. from a user seeking answers online, or collected in a Frequently Asked Questions (FAQ) document.
     class Question < Mida::Vocabulary

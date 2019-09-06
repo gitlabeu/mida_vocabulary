@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MusicAlbum, 'mida_vocabulary/vocabularies/schemaorg/musicalbum'
-    autoload :MusicRecording, 'mida_vocabulary/vocabularies/schemaorg/musicrecording'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MusicAlbum, 'mida_vocabulary/vocabularies/schemaorg/musicalbum'
+    # autoload :MusicRecording, 'mida_vocabulary/vocabularies/schemaorg/musicrecording'
 
     # A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.
     class MusicGroup < Mida::Vocabulary

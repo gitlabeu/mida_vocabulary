@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A dance group - for example, the Alvin Ailey Dance Theater or Riverdance.
     class DanceGroup < Mida::Vocabulary

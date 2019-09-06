@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # An EducationalAudience
     class EducationalAudience < Mida::Vocabulary

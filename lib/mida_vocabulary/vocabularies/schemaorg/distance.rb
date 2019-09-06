@@ -3,7 +3,7 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # Properties that take Distances as values are of the form '<Number> <Length unit of measure>'. E.g., '7 ft'
     class Distance < Mida::Vocabulary

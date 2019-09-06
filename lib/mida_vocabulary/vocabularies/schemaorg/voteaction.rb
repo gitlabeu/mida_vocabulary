@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :ChooseAction, 'mida_vocabulary/vocabularies/schemaorg/chooseaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :ChooseAction, 'mida_vocabulary/vocabularies/schemaorg/chooseaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # The act of expressing a preference from a fixed/finite/structured set of choices/options.
     class VoteAction < Mida::Vocabulary

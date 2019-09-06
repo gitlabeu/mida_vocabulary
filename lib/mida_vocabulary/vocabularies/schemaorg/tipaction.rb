@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :TradeAction, 'mida_vocabulary/vocabularies/schemaorg/tradeaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :TradeAction, 'mida_vocabulary/vocabularies/schemaorg/tradeaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # The act of giving money voluntarily to a beneficiary in recognition of services rendered.
     class TipAction < Mida::Vocabulary

@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :BusinessFunction, 'mida_vocabulary/vocabularies/schemaorg/businessfunction'
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :BusinessFunction, 'mida_vocabulary/vocabularies/schemaorg/businessfunction'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
 
     # A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.
     class TypeAndQuantityNode < Mida::Vocabulary

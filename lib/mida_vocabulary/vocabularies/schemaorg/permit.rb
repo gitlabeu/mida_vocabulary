@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
 
     # A permit issued by an organization, e.g. a parking pass.
     class Permit < Mida::Vocabulary

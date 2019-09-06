@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalImagingTechnique, 'mida_vocabulary/vocabularies/schemaorg/medicalimagingtechnique'
+    # autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalImagingTechnique, 'mida_vocabulary/vocabularies/schemaorg/medicalimagingtechnique'
 
     # Any medical imaging modality typically used for diagnostic purposes.
     class ImagingTest < Mida::Vocabulary

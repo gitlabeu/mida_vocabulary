@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
 
     # A reservation for a taxi.
     class TaxiReservation < Mida::Vocabulary

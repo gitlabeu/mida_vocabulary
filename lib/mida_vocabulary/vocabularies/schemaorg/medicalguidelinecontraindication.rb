@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalGuideline, 'mida_vocabulary/vocabularies/schemaorg/medicalguideline'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalGuideline, 'mida_vocabulary/vocabularies/schemaorg/medicalguideline'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A guideline contraindication that designates a process as harmful and where quality of the data supporting the contraindication is sound.
     class MedicalGuidelineContraindication < Mida::Vocabulary

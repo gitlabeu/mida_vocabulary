@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Seat, 'mida_vocabulary/vocabularies/schemaorg/seat'
-    autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Seat, 'mida_vocabulary/vocabularies/schemaorg/seat'
+    # autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # Used to describe a ticket to an event, a flight, a bus ride, etc.
     class Ticket < Mida::Vocabulary

@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :QualitativeValue, 'mida_vocabulary/vocabularies/schemaorg/qualitativevalue'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :QualitativeValue, 'mida_vocabulary/vocabularies/schemaorg/qualitativevalue'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
 
     # A reservation for lodging at a hotel, motel, inn, etc.
     class LodgingReservation < Mida::Vocabulary

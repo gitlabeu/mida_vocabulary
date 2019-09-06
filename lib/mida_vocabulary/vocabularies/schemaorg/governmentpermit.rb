@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Permit, 'mida_vocabulary/vocabularies/schemaorg/permit'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Permit, 'mida_vocabulary/vocabularies/schemaorg/permit'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A permit issued by a government agency.
     class GovernmentPermit < Mida::Vocabulary

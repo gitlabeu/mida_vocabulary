@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :PublicationEvent, 'mida_vocabulary/vocabularies/schemaorg/publicationevent'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # An over the air or online broadcast event.
     class BroadcastEvent < Mida::Vocabulary

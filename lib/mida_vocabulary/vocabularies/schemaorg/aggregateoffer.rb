@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # When a single product is associated with multiple offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.
     class AggregateOffer < Mida::Vocabulary

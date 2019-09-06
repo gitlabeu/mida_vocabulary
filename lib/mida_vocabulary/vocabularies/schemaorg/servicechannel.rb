@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Language, 'mida_vocabulary/vocabularies/schemaorg/language'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :ContactPoint, 'mida_vocabulary/vocabularies/schemaorg/contactpoint'
-    autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Language, 'mida_vocabulary/vocabularies/schemaorg/language'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :ContactPoint, 'mida_vocabulary/vocabularies/schemaorg/contactpoint'
+    # autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
 
     # A means for accessing a service, e.g. a government office location, web site, or phone number.
     class ServiceChannel < Mida::Vocabulary

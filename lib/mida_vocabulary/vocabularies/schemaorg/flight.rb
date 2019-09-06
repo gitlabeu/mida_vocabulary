@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Vehicle, 'mida_vocabulary/vocabularies/schemaorg/vehicle'
-    autoload :Airport, 'mida_vocabulary/vocabularies/schemaorg/airport'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Vehicle, 'mida_vocabulary/vocabularies/schemaorg/vehicle'
+    # autoload :Airport, 'mida_vocabulary/vocabularies/schemaorg/airport'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # An airline flight.
     class Flight < Mida::Vocabulary

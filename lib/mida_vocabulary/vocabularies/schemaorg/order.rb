@@ -3,14 +3,14 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
-    autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :OrderStatus, 'mida_vocabulary/vocabularies/schemaorg/orderstatus'
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
-    autoload :PaymentMethod, 'mida_vocabulary/vocabularies/schemaorg/paymentmethod'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
+    # autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :OrderStatus, 'mida_vocabulary/vocabularies/schemaorg/orderstatus'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :PaymentMethod, 'mida_vocabulary/vocabularies/schemaorg/paymentmethod'
 
     # An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.
     class Order < Mida::Vocabulary

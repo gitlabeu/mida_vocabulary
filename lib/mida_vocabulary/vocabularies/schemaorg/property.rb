@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Class, 'mida_vocabulary/vocabularies/schemaorg/class'
-    autoload :Property, 'mida_vocabulary/vocabularies/schemaorg/property'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Class, 'mida_vocabulary/vocabularies/schemaorg/class'
+    # autoload :Property, 'mida_vocabulary/vocabularies/schemaorg/property'
 
     # A property, used to indicate attributes and relationships of some Thing; equivalent to rdf:Property.
     class Property < Mida::Vocabulary

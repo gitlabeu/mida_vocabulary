@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
 
     # A public structure, such as a town hall or concert hall.
     class CivicStructure < Mida::Vocabulary

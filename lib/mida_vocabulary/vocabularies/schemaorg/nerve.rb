@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Nerve, 'mida_vocabulary/vocabularies/schemaorg/nerve'
-    autoload :Muscle, 'mida_vocabulary/vocabularies/schemaorg/muscle'
-    autoload :SuperficialAnatomy, 'mida_vocabulary/vocabularies/schemaorg/superficialanatomy'
-    autoload :BrainStructure, 'mida_vocabulary/vocabularies/schemaorg/brainstructure'
+    # autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Nerve, 'mida_vocabulary/vocabularies/schemaorg/nerve'
+    # autoload :Muscle, 'mida_vocabulary/vocabularies/schemaorg/muscle'
+    # autoload :SuperficialAnatomy, 'mida_vocabulary/vocabularies/schemaorg/superficialanatomy'
+    # autoload :BrainStructure, 'mida_vocabulary/vocabularies/schemaorg/brainstructure'
 
     # A common pathway for the electrochemical nerve impulses that are transmitted along each of the axons.
     class Nerve < Mida::Vocabulary

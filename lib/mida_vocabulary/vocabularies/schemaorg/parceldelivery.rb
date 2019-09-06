@@ -3,14 +3,14 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
-    autoload :DeliveryEvent, 'mida_vocabulary/vocabularies/schemaorg/deliveryevent'
-    autoload :DeliveryMethod, 'mida_vocabulary/vocabularies/schemaorg/deliverymethod'
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
-    autoload :Order, 'mida_vocabulary/vocabularies/schemaorg/order'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
+    # autoload :DeliveryEvent, 'mida_vocabulary/vocabularies/schemaorg/deliveryevent'
+    # autoload :DeliveryMethod, 'mida_vocabulary/vocabularies/schemaorg/deliverymethod'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :Order, 'mida_vocabulary/vocabularies/schemaorg/order'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # The delivery of a parcel either via the postal service or a commercial service.
     class ParcelDelivery < Mida::Vocabulary

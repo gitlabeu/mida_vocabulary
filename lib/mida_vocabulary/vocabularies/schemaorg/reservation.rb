@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :ProgramMembership, 'mida_vocabulary/vocabularies/schemaorg/programmembership'
-    autoload :ReservationStatusType, 'mida_vocabulary/vocabularies/schemaorg/reservationstatustype'
-    autoload :Ticket, 'mida_vocabulary/vocabularies/schemaorg/ticket'
-    autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :ProgramMembership, 'mida_vocabulary/vocabularies/schemaorg/programmembership'
+    # autoload :ReservationStatusType, 'mida_vocabulary/vocabularies/schemaorg/reservationstatustype'
+    # autoload :Ticket, 'mida_vocabulary/vocabularies/schemaorg/ticket'
+    # autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
 
     # Describes a reservation for travel, dining or an event. Some reservations require tickets.
     class Reservation < Mida::Vocabulary

@@ -3,15 +3,15 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :MedicalProcedure, 'mida_vocabulary/vocabularies/schemaorg/medicalprocedure'
-    autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
-    autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
-    autoload :Hospital, 'mida_vocabulary/vocabularies/schemaorg/hospital'
-    autoload :MedicalSpecialty, 'mida_vocabulary/vocabularies/schemaorg/medicalspecialty'
+    # autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :MedicalProcedure, 'mida_vocabulary/vocabularies/schemaorg/medicalprocedure'
+    # autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
+    # autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
+    # autoload :Hospital, 'mida_vocabulary/vocabularies/schemaorg/hospital'
+    # autoload :MedicalSpecialty, 'mida_vocabulary/vocabularies/schemaorg/medicalspecialty'
 
     # A doctor's office.
     class Physician < Mida::Vocabulary

@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MusicGroup, 'mida_vocabulary/vocabularies/schemaorg/musicgroup'
-    autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
-    autoload :MusicAlbum, 'mida_vocabulary/vocabularies/schemaorg/musicalbum'
-    autoload :MusicPlaylist, 'mida_vocabulary/vocabularies/schemaorg/musicplaylist'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MusicGroup, 'mida_vocabulary/vocabularies/schemaorg/musicgroup'
+    # autoload :Duration, 'mida_vocabulary/vocabularies/schemaorg/duration'
+    # autoload :MusicAlbum, 'mida_vocabulary/vocabularies/schemaorg/musicalbum'
+    # autoload :MusicPlaylist, 'mida_vocabulary/vocabularies/schemaorg/musicplaylist'
 
     # A music recording (track), usually a single song.
     class MusicRecording < Mida::Vocabulary

@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Service, 'mida_vocabulary/vocabularies/schemaorg/service'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
 
     # A service provided by a government organization, e.g. food stamps, veterans benefits, etc.
     class GovernmentService < Mida::Vocabulary

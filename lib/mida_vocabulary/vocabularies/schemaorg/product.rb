@@ -3,19 +3,19 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AggregateRating, 'mida_vocabulary/vocabularies/schemaorg/aggregaterating'
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
-    autoload :Brand, 'mida_vocabulary/vocabularies/schemaorg/brand'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
-    autoload :OfferItemCondition, 'mida_vocabulary/vocabularies/schemaorg/offeritemcondition'
-    autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
-    autoload :ProductModel, 'mida_vocabulary/vocabularies/schemaorg/productmodel'
-    autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
-    autoload :Review, 'mida_vocabulary/vocabularies/schemaorg/review'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AggregateRating, 'mida_vocabulary/vocabularies/schemaorg/aggregaterating'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Brand, 'mida_vocabulary/vocabularies/schemaorg/brand'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :OfferItemCondition, 'mida_vocabulary/vocabularies/schemaorg/offeritemcondition'
+    # autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
+    # autoload :ProductModel, 'mida_vocabulary/vocabularies/schemaorg/productmodel'
+    # autoload :Offer, 'mida_vocabulary/vocabularies/schemaorg/offer'
+    # autoload :Review, 'mida_vocabulary/vocabularies/schemaorg/review'
 
     # Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.
     class Product < Mida::Vocabulary

@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MoveAction, 'mida_vocabulary/vocabularies/schemaorg/moveaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
+    # autoload :MoveAction, 'mida_vocabulary/vocabularies/schemaorg/moveaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
 
     # The act of traveling from an fromLocation to a destination by a specified mode of transport, optionally with participants.
     class TravelAction < Mida::Vocabulary

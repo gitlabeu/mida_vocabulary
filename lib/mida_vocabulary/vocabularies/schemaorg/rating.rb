@@ -3,7 +3,7 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # The rating of the video.
     class Rating < Mida::Vocabulary

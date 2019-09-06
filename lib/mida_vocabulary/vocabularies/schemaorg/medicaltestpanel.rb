@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # Any collection of tests commonly ordered together.
     class MedicalTestPanel < Mida::Vocabulary

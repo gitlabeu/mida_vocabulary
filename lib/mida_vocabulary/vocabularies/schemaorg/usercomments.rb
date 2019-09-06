@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
 
     # The UserInteraction event in which a user comments on an item.
     class UserComments < Mida::Vocabulary

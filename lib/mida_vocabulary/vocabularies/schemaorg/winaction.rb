@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
 
     # The act of achieving victory in a competitive activity.
     class WinAction < Mida::Vocabulary

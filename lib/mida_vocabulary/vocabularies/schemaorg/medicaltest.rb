@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Drug, 'mida_vocabulary/vocabularies/schemaorg/drug'
-    autoload :MedicalSign, 'mida_vocabulary/vocabularies/schemaorg/medicalsign'
-    autoload :MedicalCondition, 'mida_vocabulary/vocabularies/schemaorg/medicalcondition'
-    autoload :MedicalDevice, 'mida_vocabulary/vocabularies/schemaorg/medicaldevice'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Drug, 'mida_vocabulary/vocabularies/schemaorg/drug'
+    # autoload :MedicalSign, 'mida_vocabulary/vocabularies/schemaorg/medicalsign'
+    # autoload :MedicalCondition, 'mida_vocabulary/vocabularies/schemaorg/medicalcondition'
+    # autoload :MedicalDevice, 'mida_vocabulary/vocabularies/schemaorg/medicaldevice'
 
     # Any medical test, typically performed for diagnostic purposes.
     class MedicalTest < Mida::Vocabulary

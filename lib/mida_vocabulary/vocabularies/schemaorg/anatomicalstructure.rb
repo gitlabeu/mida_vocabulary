@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
-    autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
-    autoload :AnatomicalSystem, 'mida_vocabulary/vocabularies/schemaorg/anatomicalsystem'
-    autoload :MedicalCondition, 'mida_vocabulary/vocabularies/schemaorg/medicalcondition'
-    autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
+    # autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
+    # autoload :AnatomicalSystem, 'mida_vocabulary/vocabularies/schemaorg/anatomicalsystem'
+    # autoload :MedicalCondition, 'mida_vocabulary/vocabularies/schemaorg/medicalcondition'
+    # autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
 
     # Any part of the human body, typically a component of an anatomical system. Organs, tissues, and cells are all anatomical structures.
     class AnatomicalStructure < Mida::Vocabulary

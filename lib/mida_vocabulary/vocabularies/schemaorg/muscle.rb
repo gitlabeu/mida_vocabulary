@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Muscle, 'mida_vocabulary/vocabularies/schemaorg/muscle'
-    autoload :Vessel, 'mida_vocabulary/vocabularies/schemaorg/vessel'
-    autoload :Nerve, 'mida_vocabulary/vocabularies/schemaorg/nerve'
+    # autoload :AnatomicalStructure, 'mida_vocabulary/vocabularies/schemaorg/anatomicalstructure'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Muscle, 'mida_vocabulary/vocabularies/schemaorg/muscle'
+    # autoload :Vessel, 'mida_vocabulary/vocabularies/schemaorg/vessel'
+    # autoload :Nerve, 'mida_vocabulary/vocabularies/schemaorg/nerve'
 
     # A muscle is an anatomical structure consisting of a contractile form of tissue that animals use to effect movement.
     class Muscle < Mida::Vocabulary

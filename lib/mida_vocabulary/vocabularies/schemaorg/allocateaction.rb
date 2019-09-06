@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalDevicePurpose, 'mida_vocabulary/vocabularies/schemaorg/medicaldevicepurpose'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalDevicePurpose, 'mida_vocabulary/vocabularies/schemaorg/medicaldevicepurpose'
 
     # The act of organizing tasks/objects/events by associating resources to it.
     class AllocateAction < Mida::Vocabulary

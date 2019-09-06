@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalCondition, 'mida_vocabulary/vocabularies/schemaorg/medicalcondition'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalCondition, 'mida_vocabulary/vocabularies/schemaorg/medicalcondition'
 
     # A set of characteristics belonging to people, e.g. who compose an item's target audience.
     class PeopleAudience < Mida::Vocabulary

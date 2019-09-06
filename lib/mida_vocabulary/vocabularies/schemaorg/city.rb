@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A city or town.
     class City < Mida::Vocabulary

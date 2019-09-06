@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Question, 'mida_vocabulary/vocabularies/schemaorg/question'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Question, 'mida_vocabulary/vocabularies/schemaorg/question'
 
     # An answer offered to a question; perhaps correct, perhaps opinionated or wrong.
     class Answer < Mida::Vocabulary

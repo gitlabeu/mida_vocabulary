@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
-    autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :QuantitativeValue, 'mida_vocabulary/vocabularies/schemaorg/quantitativevalue'
+    # autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
 
     # A structured value representing a monetary amount. Typically, only the subclasses of this type are used for markup.
     class PriceSpecification < Mida::Vocabulary

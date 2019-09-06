@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :MedicalCode, 'mida_vocabulary/vocabularies/schemaorg/medicalcode'
-    autoload :MedicalGuideline, 'mida_vocabulary/vocabularies/schemaorg/medicalguideline'
-    autoload :MedicineSystem, 'mida_vocabulary/vocabularies/schemaorg/medicinesystem'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :MedicalSpecialty, 'mida_vocabulary/vocabularies/schemaorg/medicalspecialty'
-    autoload :MedicalStudy, 'mida_vocabulary/vocabularies/schemaorg/medicalstudy'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :MedicalCode, 'mida_vocabulary/vocabularies/schemaorg/medicalcode'
+    # autoload :MedicalGuideline, 'mida_vocabulary/vocabularies/schemaorg/medicalguideline'
+    # autoload :MedicineSystem, 'mida_vocabulary/vocabularies/schemaorg/medicinesystem'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :MedicalSpecialty, 'mida_vocabulary/vocabularies/schemaorg/medicalspecialty'
+    # autoload :MedicalStudy, 'mida_vocabulary/vocabularies/schemaorg/medicalstudy'
 
     # The most generic type of entity related to health and the practice of medicine.
     class MedicalEntity < Mida::Vocabulary

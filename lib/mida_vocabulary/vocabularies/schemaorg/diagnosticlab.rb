@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
+    # autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :MedicalTest, 'mida_vocabulary/vocabularies/schemaorg/medicaltest'
 
     # A medical laboratory that offers on-site or off-site diagnostic services.
     class DiagnosticLab < Mida::Vocabulary

@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :FoodEstablishment, 'mida_vocabulary/vocabularies/schemaorg/foodestablishment'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :FoodEvent, 'mida_vocabulary/vocabularies/schemaorg/foodevent'
-    autoload :Recipe, 'mida_vocabulary/vocabularies/schemaorg/recipe'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :FoodEstablishment, 'mida_vocabulary/vocabularies/schemaorg/foodestablishment'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :FoodEvent, 'mida_vocabulary/vocabularies/schemaorg/foodevent'
+    # autoload :Recipe, 'mida_vocabulary/vocabularies/schemaorg/recipe'
 
     # The act of producing/preparing food.
     class CookAction < Mida::Vocabulary

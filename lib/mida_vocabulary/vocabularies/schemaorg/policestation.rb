@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CivicStructure, 'mida_vocabulary/vocabularies/schemaorg/civicstructure'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :CivicStructure, 'mida_vocabulary/vocabularies/schemaorg/civicstructure'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
 
     # A police station.
     class PoliceStation < Mida::Vocabulary

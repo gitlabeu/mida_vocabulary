@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
 
     # The legal availability status of a medical drug.
     class DrugLegalStatus < Mida::Vocabulary

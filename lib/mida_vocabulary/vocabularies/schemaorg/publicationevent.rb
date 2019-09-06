@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :BroadcastService, 'mida_vocabulary/vocabularies/schemaorg/broadcastservice'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :BroadcastService, 'mida_vocabulary/vocabularies/schemaorg/broadcastservice'
 
     # A PublicationEvent corresponds indifferently to the event of publication for a CreativeWork of any type e.g. a broadcast event, an on-demand event, a book/journal publication via a variety of delivery media.
     class PublicationEvent < Mida::Vocabulary

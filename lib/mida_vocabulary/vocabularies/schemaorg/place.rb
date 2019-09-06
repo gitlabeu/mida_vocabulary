@@ -3,18 +3,18 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
-    autoload :AggregateRating, 'mida_vocabulary/vocabularies/schemaorg/aggregaterating'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
-    autoload :GeoCoordinates, 'mida_vocabulary/vocabularies/schemaorg/geocoordinates'
-    autoload :GeoShape, 'mida_vocabulary/vocabularies/schemaorg/geoshape'
-    autoload :Map, 'mida_vocabulary/vocabularies/schemaorg/map'
-    autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
-    autoload :OpeningHoursSpecification, 'mida_vocabulary/vocabularies/schemaorg/openinghoursspecification'
-    autoload :Photograph, 'mida_vocabulary/vocabularies/schemaorg/photograph'
-    autoload :Review, 'mida_vocabulary/vocabularies/schemaorg/review'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :PostalAddress, 'mida_vocabulary/vocabularies/schemaorg/postaladdress'
+    # autoload :AggregateRating, 'mida_vocabulary/vocabularies/schemaorg/aggregaterating'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Event, 'mida_vocabulary/vocabularies/schemaorg/event'
+    # autoload :GeoCoordinates, 'mida_vocabulary/vocabularies/schemaorg/geocoordinates'
+    # autoload :GeoShape, 'mida_vocabulary/vocabularies/schemaorg/geoshape'
+    # autoload :Map, 'mida_vocabulary/vocabularies/schemaorg/map'
+    # autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
+    # autoload :OpeningHoursSpecification, 'mida_vocabulary/vocabularies/schemaorg/openinghoursspecification'
+    # autoload :Photograph, 'mida_vocabulary/vocabularies/schemaorg/photograph'
+    # autoload :Review, 'mida_vocabulary/vocabularies/schemaorg/review'
 
     # Entities that have a somewhat fixed, physical extension.
     class Place < Mida::Vocabulary

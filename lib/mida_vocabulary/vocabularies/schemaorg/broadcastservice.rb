@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :BroadcastService, 'mida_vocabulary/vocabularies/schemaorg/broadcastservice'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :BroadcastService, 'mida_vocabulary/vocabularies/schemaorg/broadcastservice'
 
     # A delivery service through which content is provided via broadcast over the air or online.
     class BroadcastService < Mida::Vocabulary

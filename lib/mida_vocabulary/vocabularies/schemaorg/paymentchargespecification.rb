@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :DeliveryMethod, 'mida_vocabulary/vocabularies/schemaorg/deliverymethod'
-    autoload :PaymentMethod, 'mida_vocabulary/vocabularies/schemaorg/paymentmethod'
+    # autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :DeliveryMethod, 'mida_vocabulary/vocabularies/schemaorg/deliverymethod'
+    # autoload :PaymentMethod, 'mida_vocabulary/vocabularies/schemaorg/paymentmethod'
 
     # The costs of settling the payment using a particular payment method.
     class PaymentChargeSpecification < Mida::Vocabulary

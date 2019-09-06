@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :ServiceChannel, 'mida_vocabulary/vocabularies/schemaorg/servicechannel'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
-    autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :ServiceChannel, 'mida_vocabulary/vocabularies/schemaorg/servicechannel'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
+    # autoload :Audience, 'mida_vocabulary/vocabularies/schemaorg/audience'
 
     # A service provided by an organization, e.g. delivery service, print services, etc.
     class Service < Mida::Vocabulary

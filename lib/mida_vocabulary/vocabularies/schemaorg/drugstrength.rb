@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
 
     # A specific strength in which a medical drug is available in a specific country.
     class DrugStrength < Mida::Vocabulary

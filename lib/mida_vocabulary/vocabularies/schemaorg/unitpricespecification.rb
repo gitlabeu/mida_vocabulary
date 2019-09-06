@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :PriceSpecification, 'mida_vocabulary/vocabularies/schemaorg/pricespecification'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # The price asked for a given offer by the respective organization or person.
     class UnitPriceSpecification < Mida::Vocabulary

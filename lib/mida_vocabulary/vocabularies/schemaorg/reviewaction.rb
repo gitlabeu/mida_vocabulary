@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Review, 'mida_vocabulary/vocabularies/schemaorg/review'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Review, 'mida_vocabulary/vocabularies/schemaorg/review'
 
     # The act of producing a balanced opinion about the object for an audience. An agent reviews an object with participants resulting in a review.
     class ReviewAction < Mida::Vocabulary

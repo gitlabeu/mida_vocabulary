@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :ImageObject, 'mida_vocabulary/vocabularies/schemaorg/imageobject'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
 
     # The most generic type of item.
     class Thing < Mida::Vocabulary

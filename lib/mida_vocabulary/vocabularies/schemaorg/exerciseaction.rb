@@ -3,17 +3,17 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :PlayAction, 'mida_vocabulary/vocabularies/schemaorg/playaction'
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Diet, 'mida_vocabulary/vocabularies/schemaorg/diet'
-    autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
-    autoload :ExercisePlan, 'mida_vocabulary/vocabularies/schemaorg/exerciseplan'
-    autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
-    autoload :SportsActivityLocation, 'mida_vocabulary/vocabularies/schemaorg/sportsactivitylocation'
-    autoload :SportsEvent, 'mida_vocabulary/vocabularies/schemaorg/sportsevent'
-    autoload :SportsTeam, 'mida_vocabulary/vocabularies/schemaorg/sportsteam'
+    # autoload :PlayAction, 'mida_vocabulary/vocabularies/schemaorg/playaction'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Diet, 'mida_vocabulary/vocabularies/schemaorg/diet'
+    # autoload :Distance, 'mida_vocabulary/vocabularies/schemaorg/distance'
+    # autoload :ExercisePlan, 'mida_vocabulary/vocabularies/schemaorg/exerciseplan'
+    # autoload :Person, 'mida_vocabulary/vocabularies/schemaorg/person'
+    # autoload :SportsActivityLocation, 'mida_vocabulary/vocabularies/schemaorg/sportsactivitylocation'
+    # autoload :SportsEvent, 'mida_vocabulary/vocabularies/schemaorg/sportsevent'
+    # autoload :SportsTeam, 'mida_vocabulary/vocabularies/schemaorg/sportsteam'
 
     # The act of participating in exertive activity for the purposes of improving health and fitness
     class ExerciseAction < Mida::Vocabulary

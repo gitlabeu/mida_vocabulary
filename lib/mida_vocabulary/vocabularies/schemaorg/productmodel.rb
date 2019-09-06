@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :ProductModel, 'mida_vocabulary/vocabularies/schemaorg/productmodel'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :ProductModel, 'mida_vocabulary/vocabularies/schemaorg/productmodel'
 
     # A datasheet or vendor specification of a product (in the sense of a prototypical description).
     class ProductModel < Mida::Vocabulary

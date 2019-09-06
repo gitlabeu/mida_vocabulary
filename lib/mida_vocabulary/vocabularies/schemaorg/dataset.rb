@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :DataCatalog, 'mida_vocabulary/vocabularies/schemaorg/datacatalog'
-    autoload :DataDownload, 'mida_vocabulary/vocabularies/schemaorg/datadownload'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :DataCatalog, 'mida_vocabulary/vocabularies/schemaorg/datacatalog'
+    # autoload :DataDownload, 'mida_vocabulary/vocabularies/schemaorg/datadownload'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
 
     # A body of structured information describing some topic(s) of interest.
     class Dataset < Mida::Vocabulary

@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Class, 'mida_vocabulary/vocabularies/schemaorg/class'
+    # autoload :Action, 'mida_vocabulary/vocabularies/schemaorg/action'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Class, 'mida_vocabulary/vocabularies/schemaorg/class'
 
     # The act of searching for an object.Related actions:FindAction: SearchAction generally leads to a FindAction, but not necessarily.
     class SearchAction < Mida::Vocabulary

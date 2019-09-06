@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Rating, 'mida_vocabulary/vocabularies/schemaorg/rating'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Rating, 'mida_vocabulary/vocabularies/schemaorg/rating'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # The average rating based on multiple ratings or reviews.
     class AggregateRating < Mida::Vocabulary

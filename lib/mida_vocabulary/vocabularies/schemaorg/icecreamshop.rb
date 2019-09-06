@@ -3,11 +3,11 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :FoodEstablishment, 'mida_vocabulary/vocabularies/schemaorg/foodestablishment'
-    autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :FoodEstablishment, 'mida_vocabulary/vocabularies/schemaorg/foodestablishment'
+    # autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
 
     # An ice cream shop
     class IceCreamShop < Mida::Vocabulary

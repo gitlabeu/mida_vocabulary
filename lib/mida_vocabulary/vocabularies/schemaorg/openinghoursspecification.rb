@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :DayOfWeek, 'mida_vocabulary/vocabularies/schemaorg/dayofweek'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :DayOfWeek, 'mida_vocabulary/vocabularies/schemaorg/dayofweek'
 
     # A structured value providing information about the opening hours of a place or a certain service inside a place.
     class OpeningHoursSpecification < Mida::Vocabulary

@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Season, 'mida_vocabulary/vocabularies/schemaorg/season'
-    autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Episode, 'mida_vocabulary/vocabularies/schemaorg/episode'
-    autoload :Series, 'mida_vocabulary/vocabularies/schemaorg/series'
-    autoload :VideoObject, 'mida_vocabulary/vocabularies/schemaorg/videoobject'
+    # autoload :Season, 'mida_vocabulary/vocabularies/schemaorg/season'
+    # autoload :CreativeWork, 'mida_vocabulary/vocabularies/schemaorg/creativework'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Episode, 'mida_vocabulary/vocabularies/schemaorg/episode'
+    # autoload :Series, 'mida_vocabulary/vocabularies/schemaorg/series'
+    # autoload :VideoObject, 'mida_vocabulary/vocabularies/schemaorg/videoobject'
 
     # Season dedicated to TV broadcast and associated online delivery.
     class TVSeason < Mida::Vocabulary

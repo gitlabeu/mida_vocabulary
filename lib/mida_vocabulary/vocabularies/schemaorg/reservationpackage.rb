@@ -3,8 +3,8 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Reservation, 'mida_vocabulary/vocabularies/schemaorg/reservation'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
 
     # A group of multiple reservations with common values for all sub-reservations.
     class ReservationPackage < Mida::Vocabulary

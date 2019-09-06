@@ -3,13 +3,13 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
-    autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :DrugLegalStatus, 'mida_vocabulary/vocabularies/schemaorg/druglegalstatus'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
-    autoload :MaximumDoseSchedule, 'mida_vocabulary/vocabularies/schemaorg/maximumdoseschedule'
-    autoload :RecommendedDoseSchedule, 'mida_vocabulary/vocabularies/schemaorg/recommendeddoseschedule'
+    # autoload :MedicalTherapy, 'mida_vocabulary/vocabularies/schemaorg/medicaltherapy'
+    # autoload :MedicalEntity, 'mida_vocabulary/vocabularies/schemaorg/medicalentity'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :DrugLegalStatus, 'mida_vocabulary/vocabularies/schemaorg/druglegalstatus'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :MaximumDoseSchedule, 'mida_vocabulary/vocabularies/schemaorg/maximumdoseschedule'
+    # autoload :RecommendedDoseSchedule, 'mida_vocabulary/vocabularies/schemaorg/recommendeddoseschedule'
 
     # A product taken by mouth that contains a dietary ingredient intended to supplement the diet. Dietary ingredients may include vitamins, minerals, herbs or other botanicals, amino acids, and substances such as enzymes, organ tissues, glandulars and metabolites.
     class DietarySupplement < Mida::Vocabulary

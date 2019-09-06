@@ -3,9 +3,9 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Energy, 'mida_vocabulary/vocabularies/schemaorg/energy'
-    autoload :Mass, 'mida_vocabulary/vocabularies/schemaorg/mass'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Energy, 'mida_vocabulary/vocabularies/schemaorg/energy'
+    # autoload :Mass, 'mida_vocabulary/vocabularies/schemaorg/mass'
 
     # Nutritional information about the recipe.
     class NutritionInformation < Mida::Vocabulary

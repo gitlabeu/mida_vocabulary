@@ -3,12 +3,12 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
-    autoload :Language, 'mida_vocabulary/vocabularies/schemaorg/language'
-    autoload :ContactPointOption, 'mida_vocabulary/vocabularies/schemaorg/contactpointoption'
-    autoload :OpeningHoursSpecification, 'mida_vocabulary/vocabularies/schemaorg/openinghoursspecification'
-    autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :AdministrativeArea, 'mida_vocabulary/vocabularies/schemaorg/administrativearea'
+    # autoload :Language, 'mida_vocabulary/vocabularies/schemaorg/language'
+    # autoload :ContactPointOption, 'mida_vocabulary/vocabularies/schemaorg/contactpointoption'
+    # autoload :OpeningHoursSpecification, 'mida_vocabulary/vocabularies/schemaorg/openinghoursspecification'
+    # autoload :Product, 'mida_vocabulary/vocabularies/schemaorg/product'
 
     # A contact point - for example, a Customer Complaints department.
     class ContactPoint < Mida::Vocabulary

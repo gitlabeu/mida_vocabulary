@@ -3,10 +3,10 @@ require 'mida_vocabulary/vocabulary'
 module Mida
   module SchemaOrg
 
-    autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
-    autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
-    autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
-    autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
+    # autoload :LocalBusiness, 'mida_vocabulary/vocabularies/schemaorg/localbusiness'
+    # autoload :Place, 'mida_vocabulary/vocabularies/schemaorg/place'
+    # autoload :Thing, 'mida_vocabulary/vocabularies/schemaorg/thing'
+    # autoload :Organization, 'mida_vocabulary/vocabularies/schemaorg/organization'
 
     # A Childcare center.
     class ChildCare < Mida::Vocabulary
